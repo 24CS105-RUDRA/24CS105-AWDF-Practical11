@@ -1,5 +1,5 @@
 {
-  "name": "24cs046-awdf-practical11",
+  "name": "24CS105-AWDF-Practical11",
   "version": "1.0.0",
   "description": "Practical 11: Containerization with Docker and Docker Compose (React + Express + MongoDB)",
   "private": true,
@@ -23,6 +23,6 @@
     "mongodb",
     "fullstack"
   ],
-  "author": "Dharm Lakhani (24CS046)",
+  "author": "Rudra Vaghela (24CS105)",
   "license": "ISC"
 }

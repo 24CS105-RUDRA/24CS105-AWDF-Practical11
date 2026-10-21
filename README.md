@@ -1,9 +1,9 @@
 # Practical 11: Containerization with Docker and Docker Compose
 
 **Course:** Advanced Web Development Frameworks (ITUE301)  
-**Student Name:** Dharm Lakhani  
-**Student ID:** 24CS046  
-**GitHub Repository:** [https://github.com/24CS046Dharm/24cs046-awdf-practical11](https://github.com/24CS046Dharm/24cs046-awdf-practical11)
+**Student Name:** Rudra Vaghela  
+**Student ID:** 24CS105  
+**GitHub Repository:** [https://github.com/24CS105-RUDRA/24CS105-AWDF-Practical11](https://github.com/24CS105-RUDRA/24CS105-AWDF-Practical11)
 
 ---
 
@@ -155,7 +155,7 @@ services:
     environment:
       - PORT=5000
       - MONGO_URI=mongodb://mongodb:27017/taskdb
-      - JWT_SECRET=jay_ladva_24cs046_docker_secret_key_2026
+      - JWT_SECRET=jay_ladva_24cs105_docker_secret_key_2026
       - NODE_ENV=production
     depends_on:
       mongodb:
@@ -207,8 +207,8 @@ docker ps
 **Expected Output:**
 ```
 CONTAINER ID   IMAGE                               COMMAND                  PORTS                      NAMES
-a1b2c3d4e5f6   24cs046-awdf-practical11-frontend   "docker-entrypoint.s…"   0.0.0.0:5173->5173/tcp     task-frontend
-b2c3d4e5f6a1   24cs046-awdf-practical11-backend    "docker-entrypoint.s…"   0.0.0.0:5000->5000/tcp     task-backend
+a1b2c3d4e5f6   24CS105-AWDF-Practical11-frontend   "docker-entrypoint.s…"   0.0.0.0:5173->5173/tcp     task-frontend
+b2c3d4e5f6a1   24CS105-AWDF-Practical11-backend    "docker-entrypoint.s…"   0.0.0.0:5000->5000/tcp     task-backend
 c3d4e5f6a1b2   mongo:6.0                           "docker-entrypoint.s…"   0.0.0.0:27017->27017/tcp   task-mongodb
 ```
 
